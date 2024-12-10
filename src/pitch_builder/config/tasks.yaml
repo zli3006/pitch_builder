@@ -1,0 +1,19 @@
+strategy_task:
+  description: >
+    Develop a comprehensive strategy for creating a 1-page pitch for {topic}.
+    Identify the key value propositions, target audience, and unique selling points.
+    Ensure the strategy aligns with current market trends in 2024.
+  expected_output: >
+    A strategic outline detailing the key elements to include in the 1-page pitch,
+    including value propositions, target audience insights, and unique selling points.
+  agent: pitch_strategist
+
+content_creation_task:
+  description: >
+    Using the strategic outline provided, create engaging and persuasive content
+    for the 1-page pitch of {topic}. Ensure the content is clear, concise, and impactful.
+    Format the final pitch as a markdown document without code blocks.
+  expected_output: >
+    A polished 1-page pitch document in markdown format, effectively communicating
+    the value and uniqueness of {topic} to the target audience.
+  agent: content_creator
